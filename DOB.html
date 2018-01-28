@@ -218,7 +218,7 @@ text-shadow: 0 0 10px #fff,
 <body>
 
 
-<audio loop="loop" autoplay="autoplay">
+<audio loop="loop" autoplay="autoplay" id="myaudio">
     <source src="back.mp3" type="audio/mpeg" />
 </audio>
 
@@ -313,6 +313,30 @@ var x = setInterval(function() {
 //text animation JS code
 
 
+
+
+
+//mobile audio support
+var maudio = document.getElementById('myaudio');
+var soundSprite = [
+  {start: 0, end: 3000},
+  {start: 3500, end: 6789}
+];
+
+element.addEventListener('touchstart', function(ev) {
+  maudio.play();
+  playSoundFile(0);
+})
+
+function playSoundFile(idx) {
+  maudio.currentPosition = soundSprite[idx].start;
+  var x = setInterval(function() {
+    if(maudio.currentPosition >= soundSprite[idx].end) {
+      maudio.pause(); // There is no stop() in HTML5
+      clearInterval(x);
+    }
+  }, 50);
+}
 </script>
 
 </body>

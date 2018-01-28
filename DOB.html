@@ -10,17 +10,16 @@
 <link href="https://fonts.googleapis.com/css?family=Advent+Pro" rel="stylesheet">
 <style>
 p {
-  text-align: center;
-  font-size: 60px;
+  text-align: left;
+  font-size: 100%;
   margin-top:0px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .wrapper {
     text-align: center;
-    margin-left: 40%;
-    margin-bottom: 30%;
-    margin-top: 30%;
-    margin-right: 40%;
+   
 }
 
 
@@ -28,16 +27,16 @@ p {
 .enjoy-css {
    /* font: bold;*/
       position: absolute;
-    top: 55%;
-   
-    right: 35%;
+    top: 35%;
+   size: 35%;
+    right: 25%;
     
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
   box-sizing: content-box;
  
   cursor: pointer;
-  margin: 0 auto;
+ /* margin: 0 auto;*/
   border: 2px solid rgb(30,205,151);
   -webkit-border-radius: 40px;
   border-radius: 40px;
@@ -103,11 +102,11 @@ html { font-size: 1px; }
   margin: 0;
  font: normal 37px/70px "Advent Pro", Helvetica, sans-serif;
  
-  font-size: 30rem;
-  /*min-height: 100vh;   */
+  font-size: 25%;
+  /*min-height: 100vh;  font-size: 30rem; */
   display: flex;
-  align-items: center;
-  justify-content: center;
+ /* align-items: center;
+  justify-content: center;*/
   
 }
 
@@ -132,10 +131,10 @@ h1 { margin: 0; }
 }
 
 .r { margin-left: 1rem;   animation-name: r; }
-.e1 { margin-left: 7rem; animation-name: e1; }
-.s1 { margin-left: 16rem; animation-name: s1; }
-.s2 { margin-left: 21rem; animation-name: s2; }
-.e2 { margin: 0 36rem 0 42rem; animation-name: e2; }
+.e1 { margin-left: 10rem; animation-name: e1; }
+.s1 { margin-left: 10rem; animation-name: s1; }
+.s2 { margin-left: 10rem; animation-name: s2; }
+.e2 { margin: 0 26rem 0 35rem; animation-name: e2; }
 
 @keyframes r { 
   0%, 20% { transform: translateX(0); }
@@ -219,9 +218,9 @@ text-shadow: 0 0 10px #fff,
 <body>
 
 
-<!--<audio loop="loop" autoplay="autoplay">
+<audio loop="loop" autoplay="autoplay">
     <source src="back.mp3" type="audio/mpeg" />
-</audio>-->
+</audio>
 
 
 <p id="demo"class="neon" ></p>
@@ -236,8 +235,8 @@ text-shadow: 0 0 10px #fff,
 
   <main id="txt_animation" >
     <div class="marker"></div>
-    <h1>Sincerely</h1>
-    <h1 class="r">To : </h1>
+    
+    <h1 class="r">To</h1>
     <h1 class="e1">PEARLY</h1>
     <h1 class="s1">WONG</h1>
     <h1 class="s2">鈺</h1>
@@ -275,7 +274,7 @@ else{alert("別急, 還沒到12點。");
 
 
 // Set the date we're counting down to
-var countDownDate = new Date("Jan 18, 2018 00:00:00").getTime();
+var countDownDate = new Date("Feb 14, 2018 00:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {

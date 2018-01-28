@@ -1,0 +1,320 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pearly</title>
+     <link rel="icon" href="heart.png" type="image/gif" sizes="16x16">
+<link async href="https://fonts.googleapis.com/css?family=Advent%20Pro" data-generated="https://enjoycss.com" rel="stylesheet" type="text/css"/>
+<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:200" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Work+Sans:100" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Advent+Pro" rel="stylesheet">
+<style>
+p {
+  text-align: center;
+  font-size: 60px;
+  margin-top:0px;
+}
+
+.wrapper {
+    text-align: center;
+    margin-left: 40%;
+    margin-bottom: 30%;
+    margin-top: 30%;
+    margin-right: 40%;
+}
+
+
+
+.enjoy-css {
+   /* font: bold;*/
+      position: absolute;
+    top: 55%;
+   
+    right: 35%;
+    
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+ 
+  cursor: pointer;
+  margin: 0 auto;
+  border: 2px solid rgb(30,205,151);
+  -webkit-border-radius: 40px;
+  border-radius: 40px;
+  font: normal 37px/70px "Advent Pro", Helvetica, sans-serif;
+  color: rgba(255,255,255,1);
+  text-align: center;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  letter-spacing: 1px;
+  background: rgba(224,92,169,1);
+  -webkit-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+  -moz-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+  -o-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+  transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+}
+
+.enjoy-css:hover {
+  background: rgb(30, 205, 151);
+}
+
+.enjoy-css:active {
+  border: 2px solid rgba(33,224,163,1);
+  background: rgba(33,224,163,1);
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+
+
+a{
+   color: azure;
+   
+
+}
+
+body {
+  background:#f0f0f0;
+  color: #000;
+   background-image:url("wallpaper.jpg");
+  background-position: 50% 15%;
+  background-size: cover;
+  font: normal 37px/70px "Advent Pro", Helvetica, sans-serif;
+}
+
+#messenger {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: monospace;
+  font-size: 20px;
+  white-space: nowrap;
+  text-shadow: 0 2px 2px rgba(#000, 0.9);
+  
+
+
+  
+}
+
+html { font-size: 1px; }
+#txt_animation {
+  margin: 0;
+ font: normal 37px/70px "Advent Pro", Helvetica, sans-serif;
+ 
+  font-size: 30rem;
+  /*min-height: 100vh;   */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+main {
+  position: relative;
+  display: flex;
+}
+
+h1 { margin: 0; }
+.marker, .r, .e1, .s1, .s2, .e2 {
+  animation-timing-function: cubic-bezier(0.15,-0.01, 0.58, 1);
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  will-change: transform;
+}
+
+.marker {
+  position: absolute; top: 4rem; left: -3rem;
+  height: 3rem; width: 40rem;
+  background-color: black;
+  animation-name: marker;
+}
+
+.r { margin-left: 1rem;   animation-name: r; }
+.e1 { margin-left: 7rem; animation-name: e1; }
+.s1 { margin-left: 16rem; animation-name: s1; }
+.s2 { margin-left: 21rem; animation-name: s2; }
+.e2 { margin: 0 36rem 0 42rem; animation-name: e2; }
+
+@keyframes r { 
+  0%, 20% { transform: translateX(0); }
+  50%, 70% { transform: translateX(35rem); }
+}
+@keyframes e1 { 
+  0%, 20% { transform: translateX(0); }
+  50%, 70% { transform: translateX(75rem); }
+}
+@keyframes s1 { 
+  0%, 20% { transform: translateX(0); }
+  50%, 70% { transform: translateX(81rem); }
+}
+@keyframes s2 { 
+  0%, 20% { transform: translateX(0); }
+  50%, 70% { transform: translateX(71rem); }
+}
+@keyframes e2 { 
+  0%, 20% { transform: translateX(0); }
+  50%, 70% { transform: translateX(34rem); }
+}
+@keyframes marker { 
+  0%, 20% { transform: translateX(0); }
+  50%, 70% { transform: translateX(337rem); }
+}
+
+
+
+
+/*blink function    .75*/
+.blink {
+	-webkit-animation: blink 1s linear infinite;
+	-moz-animation: blink 1s linear infinite;
+	-ms-animation: blink 1s linear infinite;
+	-o-animation: blink 1s linear infinite;
+	 animation: blink 1s linear infinite;
+}
+@-webkit-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+
+@-ms-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-o-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+/*end blink*/
+
+/*neon light effect font*/
+
+.neon{
+text-shadow: 0 0 10px #fff,
+0 0 20px lawngreen,
+0 0 30px lawngreen,
+0 0 40px lawngreen,
+0 0 70px lawngreen,
+0 0 80px lawngreen,
+0 0 100px lawngreen,
+0 0 150px lawngreen;
+}
+
+/*neon light effect font*/
+</style>
+</head>
+<body>
+
+
+<!--<audio loop="loop" autoplay="autoplay">
+    <source src="back.mp3" type="audio/mpeg" />
+</audio>-->
+
+
+<p id="demo"class="neon" ></p>
+<div class="wrapper">
+   
+<button class="enjoy-css"onclick="myFunction()" ><a href=fck id="myLink" style="text-decoration:none" >Click to see surprise</a></button>
+</div>
+
+<div id="messenger"></div>
+
+
+
+  <main id="txt_animation" >
+    <div class="marker"></div>
+    <h1>Sincerely</h1>
+    <h1 class="r">To : </h1>
+    <h1 class="e1">PEARLY</h1>
+    <h1 class="s1">WONG</h1>
+    <h1 class="s2">鈺</h1>
+    <h1 class="e2">晶</h1>
+   
+    
+    <h1></h1>
+  </main>
+
+
+<script>
+var flag;
+var fck ="1.html";
+
+
+
+function myFunction() {
+
+    if(flag==0)
+    {
+    alert("歡迎來到祇有PEARLY 和DANIEL的空間");
+     document.getElementById('myLink').setAttribute("href",fck);
+ /*   document.getElementById('myLink').innerHTML = fck;*/
+    
+}
+else{alert("別急, 還沒到12點。");
+    fck="#";
+       document.getElementById('myLink').setAttribute("href",fck);
+   ;
+}
+
+}
+
+
+
+
+// Set the date we're counting down to
+var countDownDate = new Date("Jan 18, 2018 00:00:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+    // Get todays date and time
+    var now = new Date().getTime();
+    
+    // Find the distance between now an the count down date
+    var distance = countDownDate - now;
+    
+    // Time calculations for days, hours, minutes and seconds
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+    // Output the result in an element with id="demo"
+    document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+    + minutes + "m " + seconds + "s ";
+    
+    // If the count down is over, write some text 
+    if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("demo").innerHTML = "時間到了";
+         flag=0;
+    }
+    else{
+         flag++;
+         
+    }
+}, 1000);
+
+
+
+
+//text animation JS code
+
+
+</script>
+
+</body>
+</html>
